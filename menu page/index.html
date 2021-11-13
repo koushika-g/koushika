@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Category Filter in JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+
+<body>
+
+
+  <div class="heading">
+
+    <h1>MAKEZZA</h1>
+
+    <h3>&mdash; MENU &mdash; </h3>
+
+
+  </div>
+  <div class="main-container">
+    <div class="filter-container">
+      <div class="category-head">
+        <ul>
+          <div class="category-title active" id="all">
+            <li>All</li>
+            <span><i class="fas fa-border-all"></i></span>
+          </div>
+          <div class="category-title" id="veg">
+            <li>veg</li>
+            <span><i class="fas fa-carrot"></i></span>
+          </div>
+          <div class="category-title" id="nonveg">
+            <li>nonveg</li>
+            <span><i class="fas fa-drumstick"></i></span>
+          </div>
+          <!-- <div class = "category-title" id = "finance">
+                            <li>Finance</li>
+                            <span><i class = "fas fa-chart-area"></i></span>
+                        </div>
+                        <div class = "category-title" id = "business">
+                            <li>Business</li>
+                            <span><i class = "fas fa-coins"></i></span>
+                        </div>
+                        <div class = "category-title" id = "sports">
+                            <li>Sports</li>
+                            <span><i class = "fas fa-running"></i></span>
+                        </div> -->
+        </ul>
+
+      </div>
+
+      <div class="posts-collect">
+        <div class="posts-main-container">
+
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a8.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Farm House</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">360</i>
+                </span>
+              </div>
+              <h2>Loaded with 1 Pound of Mozzarella and gooey Liquid Cheese on a Classic Large Pizza topped with a
+                generous...</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+
+
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a4.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Peppy Paneer</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">280</i>
+                </span>
+              </div>
+              <h2>Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal
+                pizza...</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a5.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Veggie Paradise</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">330</i>
+                </span>
+              </div>
+              <h2>Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese...</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a6.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Cheese n Corn</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">340</i>
+                </span>
+              </div>
+              <h2>Sweet & Juicy Golden corn and 100% real mozzarella cheese in a delectable combination..</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a2.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Deluxe Veggie</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">320</i>
+                </span>
+              </div>
+              <h2>Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal
+                pizza...</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a3.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Veg Extravaganza</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">420</i>
+                </span>
+              </div>
+              <h2>Delightful combination of onion, capsicum, tomato & grilled mushroom..</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all veg">
+            <div class="post-img">
+              <img src="images/a7.jpg" alt="post">
+              <span class="category-name">veg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Mexican green Wave</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">310</i>
+                </span>
+              </div>
+              <h2>Loaded with a delicious creamy tomato pasta topping , green capsicum, crunchy red and yellow bell
+                peppers</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a8.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Chicken Kebab</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">440</i>
+                </span>
+              </div>
+              <h2>Double pepper barbecue chicken, golden corn and extra cheese, true delight..</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a1.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Zesty Chicken</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">300</i>
+                </span>
+              </div>
+              <h2>Loaded with a delicious creamy tomato pasta topping , green capsicum, crunchy red and yellow bell
+                peppers</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a7.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Chicken Pepperoni</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">350</i>
+                </span>
+              </div>
+              <h2>A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese
+              </h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+
+
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a5.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Spicy Chicken</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">343</i>
+                </span>
+              </div>
+              <h2>Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka & grilled chicken rashers
+              </h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a4.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Chicken Fiesta</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">325</i>
+                </span>
+              </div>
+              <h2>Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete fiesta</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a3.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i> Chicken Pepperoni </span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">326</i>
+                </span>
+              </div>
+              <h2>Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza,
+              </h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a1.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Zesty Chicken</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">300</i>
+                </span>
+              </div>
+              <h2>Loaded with a delicious creamy tomato pasta topping , green capsicum, crunchy red and yellow bell
+                peppers</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a6.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Cheese & Barbeque</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">315</i>
+                </span>
+              </div>
+              <h2>A pizza loaded with a spicy combination of Harissa sauce, Peri Peri chicken chunks and delicious
+                pasta.</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+          <!-- single post -->
+          <div class="all nonveg">
+            <div class="post-img">
+              <img src="images/a4.jpg" alt="post">
+              <span class="category-name">nonveg</span>
+            </div>
+
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-pizza-slice "></i>Non-veg Supreme</span>
+                <span>
+                  <i class="fas fa-rupee-sign f1">450</i>
+                </span>
+              </div>
+              <h2>Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red
+                and</h2>
+
+            </div>
+            <button type="button" class="read-btn">Add to Cart</button>
+          </div>
+          <!-- end of single post -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- JS file -->
+  <script>
+    const categoryTitle = document.querySelectorAll('.category-title');
+    const allCategoryPosts = document.querySelectorAll('.all');
+
+    for (let i = 0; i < categoryTitle.length; i++) {
+      categoryTitle[i].addEventListener('click', filterPosts.bind(this, categoryTitle[i]));
+    }
+
+    function filterPosts(item) {
+      changeActivePosition(item);
+      for (let i = 0; i < allCategoryPosts.length; i++) {
+        if (allCategoryPosts[i].classList.contains(item.attributes.id.value)) {
+          allCategoryPosts[i].style.display = "block";
+        } else {
+          allCategoryPosts[i].style.display = "none";
+        }
+      }
+    }
+
+    function changeActivePosition(activeItem) {
+      for (let i = 0; i < categoryTitle.length; i++) {
+        categoryTitle[i].classList.remove('active');
+      }
+      activeItem.classList.add('active');
+    };
+  </script>
+</body>
+
+</html>

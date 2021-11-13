@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{width: 100%;
+    border-radius:-50%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    background-color: black;
+}
+
+/****************/
+.main-container{
+    width: 95vw;
+    margin: 0 auto ;
+    padding: 40px 0;
+    /* background-color: black; */
+}
+.main-container > h2{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 32px;
+}
+.main-container > p{
+    font-weight: 300;
+    padding: 10px 0;
+    opacity: 0.7;
+    text-align: center;
+}
+.category-head{
+    margin: 10px;
+    text-align: center;
+}
+.category-head ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    
+}
+.category-title{
+    flex: 0 0 calc(16.6667% - 10px);
+    display: flex;
+    justify-content:center;
+    background: #f5a81c;
+    padding: 12px;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+}
+.category-title:hover{
+    opacity: 0.7;
+}
+.category-title li{
+    padding: 0 10px;
+}
+.category-title span{
+    color: #222;
+    
+}
+
+/** single post **/
+.posts-main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    background-color: black;
+}
+.posts-main-container > div{
+   
+    box-shadow: -1px -1px 5px 1px #f5a81c,2px 2px 10px 1px red;
+}
+.post-img{
+    position: relative;
+}
+.category-name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.all .category-name{
+    background: #f5a81c;
+}
+.veg .category-name{
+    background: #41b912;
+}
+.nonveg .category-name{
+    background: #f0544f;
+}
+.finance .category-name{
+    background: #2c2a4a;
+}
+.sports .category-name{
+    background: #a1e44d;
+}
+
+/*  */
+
+
+.post-content{
+    padding: 25px;
+}
+.post-content-top{
+    background: #f5a81c;
+    color: #fff;
+    
+    padding: 5px 0 5px 15px;
+}
+.post-content-top span{
+  margin-left: auto;
+  margin-right: 0;
+    /* padding-right: 50px; */
+    
+}
+.post-content-top span .f1{
+  float:right;
+}
+
+.post-content-top .fa-comment, .post-content-top .fa-pizza-slize{
+    padding-right: 5px;
+    
+}
+.post-content h2{
+    font-size: 15px;
+    padding: 12px 0;
+    font-weight: 400;
+    color: white;
+}
+.post-content p{
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 1.8;
+}
+ .read-btn{
+    border: none;
+    padding: 8px 15px;
+    display: block;
+    margin: 5px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid ;
+    background: #f5a81c;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.read-btn:hover{
+    background: #f6f6f6;
+} 
+
+
+
+
+/***************/
+@media(max-width: 1170px){
+    .posts-main-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 768px){
+    .posts-main-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/***********/
+
+/* .active{
+    background: #0c0c0c;
+}
+ */
+
+.heading{
+
+  background-color: #f5a81c;
+
+  color: #0c0b0b;
+
+  margin-bottom: 30px;
+
+  padding: 120px 0 30px 0;
+
+  grid-column: 1/-1;
+
+  text-align: center;
+
+}
+
+.heading>h1{
+
+  font-weight: 400;
+
+  font-size: 40px;
+
+  letter-spacing: 10px;
+
+  margin-bottom: 10px;
+
+}
+
+.heading>h3{
+
+  font-weight: 600;
+
+  font-size: 32px;
+
+  letter-spacing: 5px;
+  color: white;
+
+}
